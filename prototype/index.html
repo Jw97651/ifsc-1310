@@ -3,29 +3,80 @@
 
 <head>
     <title>Prototype HTML5 Assignment</title>
-    <!-- Meta tags description about the Page -->
+    <!-- Meta tags description about the Page, or the flavor -->
     <meta charset="utf-8"
-    <meta name="description" content="Gordo the monkey who traveled to space." />
+    <!-- The utf-8 purpose is to store, process, and transfer data. charater encoding.-->
+    <meta name="description" content="Gordo, the monkey who traveled to space." />
+    <!--This part is saying what the content will be about-->
     <meta name="author" content="Josh Wright" />
+    <!--The meta data here is saying who wrote this code-->
     <meta name="viewport" content="width=device-width, initial scale=1, shrink-to-fit=no" />
+    <!--The data here is making the website responsive, to diffrent device sizes such as mobile device, or a desktop.-->
 </head>
 
 <body>
     <main>
         <header>
+            <!-- Header section, my main title, and some additional information. -->
             <h1>Gordo, the space ape!</h1>
-            <!-- Header section, my main title -->
+            <input id="date" name="date">
+            <div> class="gordo-pic">
+                <img src="Assets/img/gordo.jpeg" alt="Gordo the monkey"
+            </div>
+            <!--The div I used here was to make the img src a blockline element, which makes it create a new line instead of continuing with the current line, I did this because the img was interfering with the date stamp.-->
+<script type="text/javascript">
+  document.getElementById('date').value = Date();
+</script>
+<!--I did some research on stockoverflow.com, I wanted to have an active date at the top of my website (We went over it in class, using codepen, but I could not remember). This is a little bit of javascript usage, I am hoping I did it right.-->
         </header>
         <section id="content">
+            <!-- this is the section that contains diffrent html elements-->
             <h2>Old Reliable</h2>
+            <!--h2 is used as my sub heading-->
             <p>Gordo's historic flight took place on <b>December 13, 1958</b> when he took off from Cape Canaveral for a 15 minute flight into space. Even though he was weightless for over 8 minutes the on-board instruments indicated that Gordo enjoyed his journey into space. Scientists monitoring the flight were pleased to note that the only slight side effect Gordo suffered from the entry into space was a modest slowing of his pulse.</p>
+            <!--p is the content I am putting in this website.-->
             <h3>The Mission</h3>
-            <p>The rocket carrying Gordo into space would take off from the Atlantic Missile Range at Cape Canaveral, travel further than any monkey had ever travelled before - over 1,500 miles - and reach a height of 310 miles (500 km) before returning to Earth and landing in the South Atlantic, 1,302 nautical miles south of Cape Canaveral.<q>"We all heard the rumors that they want to send a monkey up first. Well, none of us wants to think that they're gonna send a monkey up to do a man's work ... what they're trying to do to us is send a man up to do a monkey's work."</q>Deke Slayton, Mercury Seven Astronaut</p>
+            <p>The rocket carrying <b>Gordo</b> into space would take off from the Atlantic Missile Range at Cape Canaveral, travel further than any monkey had ever travelled before - over 1,500 miles - and reach a height of 310 miles (500 km) before returning to Earth and landing in the South Atlantic, 1,302 nautical miles south of Cape Canaveral.<q>"We all heard the rumors that they want to send a monkey up first. Well, none of us wants to think that they're gonna send a monkey up to do a man's work ... what they're trying to do to us is send a man up to do a monkey's work."</q>Deke Slayton, Mercury Seven Astronaut</p>
+            <!--the b tag I am using above is used to bolden the letters of Gordo's name inside the website.-->
             <h4>The jupiter AM-13</h4>
             <p>he Jupiter IRBM (Intermediate Range Ballistic Missile) was originally developed by the US Army as a long-range successor to its PGM-11 Redstone missile, but was eventually taken over and deployed by the USAF for political reasons. It was also the only one of the United States' early stategic ballistic missiles with some mobility.</p>
             <h5>The Journey</h5>
+            <p>Gordo wore a specially customised space suit custom made for a monkey about one foot tall. The space suit was fitted with instruments, including temperature meters and microphones which recorded his historic suborbital journey, considered one of the outstanding achievements of space research.</p>
+            <strong>The space suit was fitted with instruments, including temperature meters and microphones which recorded his historic suborbital journey, and considered one of the outstanding achievements of space research</strong>
+        <!--The strong attribute tells the browser that this is very important, making it stand out.-->
         </section>
+        <!--The section tag does exactly what it says, it sections off this content-->
+        <nav class="primary">
+            <ul>
+                <li><a href="ualr.html" target="_blank">UALR</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <!--The li is a list item-->
+            </ul>
+            <!--The ul is an unordered list-->
+          </nav>
+          <!--The nav tag is used for navigation of the site-->
     </main>
+    <!--The main tag is being used to tell the browser that this is the main content of the website.-->
+        <footer>
+            <h6>
+                &copy;The Famous Primates web site is a Web Standardistas production.
+                XHTML + CSS released under a Creative Commons Attribution 3.0 license.
+                Photography Copyright iStockphoto | <a href="#top">Return to top of Page</a>
+                <!--The &copy is used to copy right the website, and the href used is a link labeled return to top which takes the user back to the top of the homepage.-->
+            </h6>
+        </footer>
+        <!--The footer is used to define the section within the website-->
+        
 </body>
+</html>
 
-this is to make a change to update git add
+<!--Additional information, h1 is the main heading of my website, while h2 - h4 are used as my sub headings-->
+<!--The img src, located on line 19, is being used to insert a picture of gordo the space monkey.-->
+<!--The div located on line 19 - 21, is being used to make the img src a block line element due to it was interfering with the date stamp.-->
+
+
+
+ 
+ 
