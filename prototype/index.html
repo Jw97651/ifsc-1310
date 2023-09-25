@@ -1,175 +1,194 @@
 <!DOCTYPE html>
 <!--The doctype is classifying that this document is html-->
 <html lang="en">
-    <!--line 3 is saying this the language I will be using is english-->
+<!--line 3 is saying this the language I will be using is english-->
+
 <head>
-    <!--The head element is storing my meta data, data that will not be seen by the website user.-->
-    <title>Prototype HTML5 Assignment</title>
-    <!-- Meta tags description about the Page, or the flavor -->
-    <meta charset="utf-8"> 
-    <!-- The utf-8 purpose is to store, process, and transfer data. charater encoding.-->
-    <meta name="description" content="Gordo, the monkey who traveled to space." />
-    <!--This part is saying what the content will be about-->
-    <meta name="author" content="Josh Wright" />
-    <!--The meta data here is saying who wrote this code-->
-    <meta name="viewport" content="width=device-width, initial scale=1, shrink-to-fit=no" />
-    <!--The veiwport, and content here is making the website responsive, to diffrent device sizes such as mobile device, or a desktop.-->
+  <!--The head element is storing my meta data, data that will not be seen by the website user.-->
+  <title>Prototype HTML5 Assignment</title>
+  <!-- Meta tags description about the Page, or the flavor -->
+  <meta charset="utf-8">
+  <!-- The utf-8 purpose is to store, process, and transfer data. charater encoding.-->
+  <meta name="description" content="Gordo, the monkey who traveled to space." />
+  <!--This part is saying what the content will be about-->
+  <meta name="author" content="Josh Wright" />
+  <!--The meta data here is saying who wrote this code-->
+  <meta name="viewport" content="width=device-width, initial scale=1, shrink-to-fit=no" />
+  <!--The veiwport, and content here is making the website responsive, to diffrent device sizes such as mobile device, or a desktop.-->
 </head>
 
 <body>
-    <main>
-        <!--The main tag is telling the browser that this is the main content of my website-->
-        <header>
-            <!-- Header section, my main title, and some additional information. -->
-            <h1>Gordo, the space ape!</h1>
-            <!--The h1 tag here is my main header in my website-->
-            <input id="date" name="date">
-            
-            <div> 
-                <img src="Assets/img/gordo.jpeg" alt="Gordo the monkey" />
-            </div>
-            <!--The div I used here was to make the img src a blockline element, which makes it create a new line instead of continuing with the current line, I did this because the img was interfering with the date stamp.-->
-            <!--Inside the div, I used img src, which is me inserting an image into my website.-->
+  <main>
+    <!--The main tag is telling the browser that this is the main content of my website-->
+    <header>
+      <!-- Header section, my main title, and some additional information. -->
+      <h1>Gordo, the space ape!</h1>
+      <!--The h1 tag here is my main header in my website-->
+      <input id="date" name="date">
 
-<script type="text/javascript">
-  document.getElementById('date').value = Date();
-</script>
-<!--I did some research on stockoverflow.com, I wanted to have an active date at the top of my website (We went over it in class, using codepen, but I could not remember). This is a little bit of javascript usage, I am hoping I did it right.-->
-        </header>
-        <section id="content">
-            <!-- this is the section that contains diffrent html elements-->
-            <h2>Old Reliable</h2>
-            <!--h2 is used as my sub heading-->
-            <p>Gordo's historic flight took place on <b>December 13, 1958</b> when he took off from Cape Canaveral for a 15 minute flight into space. Even though he was weightless for over 8 minutes the on-board instruments indicated that Gordo enjoyed his journey into space. Scientists monitoring the flight were pleased to note that the only slight side effect Gordo suffered from the entry into space was a modest slowing of his pulse.</p>
-            <!--p is the content I am putting in this website.-->
-            <h3>The Mission</h3>
-            <p>The rocket carrying <b>Gordo</b> into space would take off from the Atlantic Missile Range at Cape Canaveral, travel further than any monkey had ever travelled before - over 1,500 miles - and reach a height of 310 miles (500 km) before returning to Earth and landing in the South Atlantic, 1,302 nautical miles south of Cape Canaveral. <blockquote>We all heard the rumors that they want to send a monkey up first. Well, none of us wants to think that they're gonna send a monkey up to do a man's work ... what they're trying to do to us is send a man up to do a monkey's work. <cite> Deke Slayton, Mercury Seven Astronaut.</cite></blockquote>
-            <!--the b tag I am using above is used to bolden the letters of Gordo's name inside the website.(Line 40)-->
-            <!--The blockquote element I am using tells the browser that this is a quote, and to add it to a new line, hence making it a block element.(Line 40)-->
-            <h4>The jupiter AM-13</h4>
-            <p>he Jupiter IRBM <em>(Intermediate Range Ballistic Missile)</em> was originally developed by the US Army as a long-range successor to its PGM-11 Redstone missile, but was eventually taken over and deployed by the USAF for political reasons. It was also the only one of the United States' early stategic ballistic missiles with some mobility.</p>
-            <!--The em tag I used on line 44 is being used to put emphases on the text.-->
-            <q>"We all heard the rumors that they wanted to send a monkey up first. Well,none of us wanted to think that they were gonna send a monkey up to do a man's work ... what they were trying to do to us was send a man up to do a monkey's work," <cite> Deke Slayton, Mercury Seven Astronaut</cite></q>
-            <!--The q element tells the browser that this is a quote, but keeps the quote in the same line, hence this is a inline quote.-->
-            <h5>The Journey</h5>
-            <p>Gordo wore a specially customised space suit custom made for a monkey about one foot tall. The space suit was fitted with instruments, including temperature meters and microphones which recorded his historic suborbital journey, considered one of the outstanding achievements of space research.</p>
-            <strong>The space suit was fitted with instruments, including temperature meters and microphones which recorded his historic suborbital journey, and considered one of the outstanding achievements of space research</strong>
-        <!--The strong attribute tells the browser that this is very important, making it stand out.-->
-        </section>
-        <!--The section tag does exactly what it says, it sections off this content-->
-        
-        <table border="1">
-            <caption>Bills</caption>
-            <tr>
-              <th scope="col">bill</th>
-              <th scope="col">cost</th>
-              <th scope="col">due</th>
-              <th scope="col">paid</th>
-              <th scope="col">left over</th>
-              <!--th is the table header attribute, scope is used to specify the header cell is used for the header row-->
-            </tr>
-            <!--the tr tag is used to specify that the table is horizontal-->
-            <ol>
-                <!--The ol tag is used to create an ordered list.-->
-                <li>Things to do</li>
-                <li>task</li>
-                <li>task</li>
-                  <ol>
-                    <li>Wash car</li>
-                    <li>Clean House</li>
-                      <ol>
-                        <li>Wash car</li>
-                        <li>Clean house</li>
-                        <li>Feed cat</li>
-                        <li>Mow</li>
-                      </ol>
-                    </li>
-                    <li>Pick up yard</li>
-                    <li>Dust</li>
-                  </ol>
-                </li>
-                <li>Take out trash</li>
-                <li>Pay bills</li>
-                <li>Do school work</li>
-                <li>Fold clothes</li>
-                <li>Make dinner</li>
-                <li>Clean dishes</li>
-              </ol>
-        
-              <ul>
-                <li>Study</li>
-                <li>Rake</li>
-                <li>Weed eat</li>
-                <li>Trim shrubs</li>
-              </ul>
-              <!--The ul tag is used for creating an unordered list.+-->
-              <dl>
-                <dt>Microscopic</dt>
-                <!--The dt tag means discription term.-->
-                <dd>Slim</dd>
-                <dd>Little</dd>
-                <dt>Small</dt>
-                <dd>Tiny</dd>
-                <!--The dd tag means definition description.-->
-              </dl>
-            <tr>
-              <td>Electric</td>
-              <td>$56.97</td>
-              <td>01/15</td>
-              <td>$56.97</td>
-              <td>$1,000.00</td>
-            </tr>
-            <tr>
-              <td>Water</td>
-              <td>21.02</td>
-              <td>1/15</td>
-              <td>$21.02</td>
-              <td>$978.98</td>
-            </tr>
-            <tr>
-              <td>Subscriptions</td>
-              <td>$35.46</td>
-              <td>1/15</td>
-              <td>$35.46</td>
-              <td>$943.52</td>
-            </tr>
-            <tr>
-                <td>Insurance</td>
-                <td>205.97</td>
-                <td>1/15</td>
-                <td>$205.97</td>
-                <td>$737.55</td>
-              </tr>
-              <tr>
-                <td>Morgage</td>
-                <td>$685.49</td>
-                <td>1/15</td>
-                <td>$685.49</td>
-                <td>$52.06</td>
-              </tr>
-          </table>
+      <div>
+        <img src="Assets/img/gordo.jpeg" alt="Gordo the monkey" />
+      </div>
+      <!--The div I used here was to make the img src a blockline element, which makes it create a new line instead of continuing with the current line, I did this because the img was interfering with the date stamp.-->
+      <!--Inside the div, I used img src, which is me inserting an image into my website.-->
 
-        <nav class="primary">
-            <ul>
-                <li><a href="ualr.html" target="_blank">UALR</a></li>
-                <li><a href="about.html">about</a></li>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-                <!--The li is a list item-->
-            </ul>
-            <!--The ul is an unordered list-->
-          </nav>
-          <!--The nav tag is used for navigation of the site-->
-    </main>
-    <!--The main tag is being used to tell the browser that this is the main content of the website.-->
-        <footer>
-            <h6>
-                &copy; 2023 Josh Wright | <li><a href="mailto:name@email.com">Email Link</a></li> <a href="#top">Return to top of Page</a>
-                <!--The &copy is used to copy right the website, and the href used is a link labeled return to top which takes the user back to the top of the homepage.-->
-            </h6>
-        </footer>
-        <!--The footer is used to define the section within the website, the footer is creating a section within the website.-->
-        </body>
+      <script type="text/javascript">
+        document.getElementById('date').value = Date();
+      </script>
+      <!--I did some research on stockoverflow.com, I wanted to have an active date at the top of my website (We went over it in class, using codepen, but I could not remember). This is a little bit of javascript usage, I am hoping I did it right.-->
+    </header>
+    <section id="content">
+      <!-- this is the section that contains diffrent html elements-->
+      <h2>Old Reliable</h2>
+      <!--h2 is used as my sub heading-->
+      <p>Gordo's historic flight took place on <b>December 13, 1958</b> when he took off from Cape Canaveral for a 15
+        minute flight into space. Even though he was weightless for over 8 minutes the on-board instruments indicated
+        that Gordo enjoyed his journey into space. Scientists monitoring the flight were pleased to note that the only
+        slight side effect Gordo suffered from the entry into space was a modest slowing of his pulse.</p>
+      <!--p is the content I am putting in this website.-->
+      <h3>The Mission</h3>
+      <p>The rocket carrying <b>Gordo</b> into space would take off from the Atlantic Missile Range at Cape Canaveral,
+        travel further than any monkey had ever travelled before - over 1,500 miles - and reach a height of 310 miles
+        (500 km) before returning to Earth and landing in the South Atlantic, 1,302 nautical miles south of Cape
+        Canaveral.
+      <blockquote>We all heard the rumors that they want to send a monkey up first. Well, none of us wants to think that
+        they're gonna send a monkey up to do a man's work ... what they're trying to do to us is send a man up to do a
+        monkey's work. <cite> Deke Slayton, Mercury Seven Astronaut.</cite></blockquote>
+      <!--the b tag I am using above is used to bolden the letters of Gordo's name inside the website.(Line 40)-->
+      <!--The blockquote element I am using tells the browser that this is a quote, and to add it to a new line, hence making it a block element.(Line 40)-->
+      <h4>The jupiter AM-13</h4>
+      <p>he Jupiter IRBM <em>(Intermediate Range Ballistic Missile)</em> was originally developed by the US Army as a
+        long-range successor to its PGM-11 Redstone missile, but was eventually taken over and deployed by the USAF for
+        political reasons. It was also the only one of the United States' early stategic ballistic missiles with some
+        mobility.</p>
+      <!--The em tag I used on line 44 is being used to put emphases on the text.-->
+      <q>"We all heard the rumors that they wanted to send a monkey up first. Well,none of us wanted to think that they
+        were gonna send a monkey up to do a man's work ... what they were trying to do to us was send a man up to do a
+        monkey's work," <cite> Deke Slayton, Mercury Seven Astronaut</cite></q>
+      <!--The q element tells the browser that this is a quote, but keeps the quote in the same line, hence this is a inline quote.-->
+      <h5>The Journey</h5>
+      <p>Gordo wore a specially customised space suit custom made for a monkey about one foot tall. The space suit was
+        fitted with instruments, including temperature meters and microphones which recorded his historic suborbital
+        journey, considered one of the outstanding achievements of space research.</p>
+      <strong>The space suit was fitted with instruments, including temperature meters and microphones which recorded
+        his historic suborbital journey, and considered one of the outstanding achievements of space research</strong>
+      <!--The strong attribute tells the browser that this is very important, making it stand out.-->
+    </section>
+    <!--The section tag does exactly what it says, it sections off this content-->
+
+    <table>
+      <caption>Bills</caption>
+      <tr>
+        <th scope="col">bill</th>
+        <th scope="col">cost</th>
+        <th scope="col">due</th>
+        <th scope="col">paid</th>
+        <th scope="col">left over</th>
+        <!--th is the table header attribute, scope is used to specify the header cell is used for the header row-->
+      </tr>
+      <!--the tr tag is used to specify that the table is horizontal-->
+        <li>Things to do</li>
+        <li>task</li>
+        <li>task</li>
+        <ol>
+          <!--The ol tag is used to create an ordered list.-->
+          
+          <li>Wash car</li>
+          <li>Clean House</li>
+          <ol>
+            <li>Wash car</li>
+            <li>Clean house</li>
+            <li>Feed cat</li>
+            <li>Mow</li>
+          </ol>
+          </li>
+          <li>Pick up yard</li>
+          <li>Dust</li>
+        </ol>
+        </li>
+        <li>Take out trash</li>
+        <li>Pay bills</li>
+        <li>Do school work</li>
+        <li>Fold clothes</li>
+        <li>Make dinner</li>
+        <li>Clean dishes</li>
+      </ol>
+
+      <ul>
+        <li>Study</li>
+        <li>Rake</li>
+        <li>Weed eat</li>
+        <li>Trim shrubs</li>
+      </ul>
+      <!--The ul tag is used for creating an unordered list.+-->
+      <dl>
+        <dt>Microscopic</dt>
+        <!--The dt tag means discription term.-->
+        <dd>Slim</dd>
+        <dd>Little</dd>
+        <dt>Small</dt>
+        <dd>Tiny</dd>
+        <!--The dd tag means definition description.-->
+      </dl>
+      <tr>
+        <td>Electric</td>
+        <td>$56.97</td>
+        <td>01/15</td>
+        <td>$56.97</td>
+        <td>$1,000.00</td>
+      </tr>
+      <tr>
+        <td>Water</td>
+        <td>21.02</td>
+        <td>1/15</td>
+        <td>$21.02</td>
+        <td>$978.98</td>
+      </tr>
+      <tr>
+        <td>Subscriptions</td>
+        <td>$35.46</td>
+        <td>1/15</td>
+        <td>$35.46</td>
+        <td>$943.52</td>
+      </tr>
+      <tr>
+        <td>Insurance</td>
+        <td>205.97</td>
+        <td>1/15</td>
+        <td>$205.97</td>
+        <td>$737.55</td>
+      </tr>
+      <tr>
+        <td>Morgage</td>
+        <td>$685.49</td>
+        <td>1/15</td>
+        <td>$685.49</td>
+        <td>$52.06</td>
+      </tr>
+    </table>
+
+    <nav class="primary">
+      <ul>
+        <li><a href="ualr.html" target="_blank">UALR</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <!--The li is a list item-->
+      </ul>
+      <!--The ul is an unordered list-->
+    </nav>
+    <!--The nav tag is used for navigation of the site-->
+  </main>
+  <!--The main tag is being used to tell the browser that this is the main content of the website.-->
+  <footer>
+    <h6>
+      &copy; 2023 Josh Wright | <li><a href="mailto:name@email.com">Email Link</a></li> <a href="#top">Return to top of
+        Page</a>
+      <!--The &copy is used to copy right the website, and the href used is a link labeled return to top which takes the user back to the top of the homepage.-->
+    </h6>
+  </footer>
+  <!--The footer is used to define the section within the website, the footer is creating a section within the website.-->
+</body>
 
 </html>
 
@@ -179,9 +198,3 @@
 
 <!--Notes for myself. ctrl + shift + I will format my html in codespace-->
 <!--work left to do, double check everything looks good, add any notes that are needed, validate website for submission.-->
-
-
-
-
- 
- 
