@@ -57,7 +57,7 @@
       <!--the b tag I am using above is used to bolden the letters of Gordo's name inside the website.(Line 40)-->
       <!--The blockquote element I am using tells the browser that this is a quote, and to add it to a new line, hence making it a block element.(Line 40)-->
       <h4>The jupiter AM-13</h4>
-      <p>he Jupiter IRBM <em>(Intermediate Range Ballistic Missile)</em> was originally developed by the US Army as a
+      <p>The Jupiter IRBM <em>(Intermediate Range Ballistic Missile)</em> was originally developed by the US Army as a
         long-range successor to its PGM-11 Redstone missile, but was eventually taken over and deployed by the USAF for
         political reasons. It was also the only one of the United States' early stategic ballistic missiles with some
         mobility.</p>
@@ -66,17 +66,19 @@
         were gonna send a monkey up to do a man's work ... what they were trying to do to us was send a man up to do a
         monkey's work," <cite> Deke Slayton, Mercury Seven Astronaut</cite></q>
       <!--The q element tells the browser that this is a quote, but keeps the quote in the same line, hence this is a inline quote.-->
+      <!--The cite element marks up the title of a cited quote.-->
       <h5>The Journey</h5>
       <p>Gordo wore a specially customised space suit custom made for a monkey about one foot tall. The space suit was
         fitted with instruments, including temperature meters and microphones which recorded his historic suborbital
         journey, considered one of the outstanding achievements of space research.</p>
+        <!--The p element stands for paragraph-->
       <strong>The space suit was fitted with instruments, including temperature meters and microphones which recorded
         his historic suborbital journey, and considered one of the outstanding achievements of space research</strong>
       <!--The strong attribute tells the browser that this is very important, making it stand out.-->
     </section>
     <!--The section tag does exactly what it says, it sections off this content-->
 
-    <table border="1">
+    <table>
       <caption>Bills</caption>
       <tr>
         <th scope="col">Bill</th>
@@ -108,7 +110,7 @@
       </tr>
       <tr>
         <td>Gas</td>
-        <td>$23.11/td>
+        <td>$23.11</td>
         <td>1/15</td>
         <td>$23.11</td>
         <td>$0.00</td>
@@ -116,53 +118,50 @@
       <tr>
         <td>Food</td>
         <td>$10.00</td>
-        <td>1/15/td>
+        <td>1/15</td>
         <td>$10.00</td>
         <td>$0.00</td>
       </tr>
     </table>
-
-
-    <li>Wash car</li>
-    <li>Clean House</li>
+    <!--The table element inserts a table into the website-->
     <ol>
-      <!--The ol tag is used to create an ordered list.-->
       <li>Wash car</li>
       <li>Clean house</li>
       <li>Feed cat</li>
+      <li>wash dishes</li>
+    </ol>
+    <!--The ol tag is used to create an ordered list.-->
+    <ol>
+      <!--ol is the parent-->
       <li>Mow</li>
-    </ol>
-    </li>
-    <li>Pick up yard</li>
-    <li>Dust</li>
-    </ol>
-    </li>
-    <li>Take out trash</li>
-    <li>Pay bills</li>
-    <li>Do school work</li>
-    <li>Fold clothes</li>
-    <li>Make dinner</li>
-    <li>Clean dishes</li>
-    </tr>
-
-    <ul>
-      <li>Study</li>
       <li>Rake</li>
       <li>Weed eat</li>
-      <li>Trim shrubs</li>
-    </ul>
-    <!--The ul tag is used for creating an unordered list.+-->
-    <dl>
-      <dt>Microscopic</dt>
-      <!--The dt tag means discription term.-->
-      <dd>Slim</dd>
-      <dd>Little</dd>
-      <dt>Small</dt>
-      <dd>Tiny</dd>
-      <!--The dd tag means definition description.-->
-    </dl>
-    <tr>
+    </ol>
+      <!--li would be the child-->
+      <ol>
+        <li>One</li>
+        <li>Two</li>
+        <!--this would be the grand child-->
+      </ol>
+
+      <ul>
+        <!--The ul tag creates an unordered list-->
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>four</li>
+      </ul>
+
+      <dl>
+        <!--dl is a definition list-->
+        <dt>Microscopic</dt>
+        <dd>Tiny</dd>
+        <dd>Small</dd>
+        <!--dd is definition description-->
+      </dl>
+
       <nav class="primary">
+        <!--The nav tag is used for navigation of the site-->
         <ul>
           <li><a href="ualr.html" target="_blank">UALR</a></li>
           <li><a href="about.html">about</a></li>
@@ -172,19 +171,20 @@
         </ul>
         <!--The ul is an unordered list-->
       </nav>
-      <!--The nav tag is used for navigation of the site-->
+
   </main>
-  <!--The main tag is being used to tell the browser that this is the main content of the website.-->
+  <!--This is closing the main tag element.-->
   <footer>
+    <!--The footer is used to define the section within the website, the footer is creating a section within the website.-->
     <h6>
-      &copy; 2023 Josh Wright | <li><a href="mailto:name@email.com">Email Link</a></li> <a href="#top">Return to top of
+      &copy; 2023 Josh Wright |<a href="mailto:name@email.com">Email Link</a><a href="#top">Return to top of
         Page</a>
       <!--The &copy is used to copy right the website, and the href used is a link labeled return to top which takes the user back to the top of the homepage.-->
     </h6>
   </footer>
-  <!--The footer is used to define the section within the website, the footer is creating a section within the website.-->
+  <!--Closing the footer section of my website-->
 </body>
+<!--Closing the body of my website-->
 
 </html>
-<!--Notes for myself. ctrl + shift + I will format my html in codespace-->
-<!--work left to do, double check everything looks good, add any notes that are needed, validate website for submission.-->
+<!--Work has been validated-->
