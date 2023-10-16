@@ -176,6 +176,60 @@ article.post img{
   border-bottom: 1px solid #c0c0c0;
 }
 
+table{
+border: 1px solid #0c0c0c;
+width: 100%;
+border-collapse: collapse;
+}
+
+caption{
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+tr:nth-child(even) { 
+background-color: lightgray;
+}
+
+th{
+background-color: #3b638b;
+color: #fff;
+padding: 10px;
+}
+
+td{
+  border: 1px solid #c0c0c0;
+}
+
+#practice ol{
+  clear: both;
+  list-style-type: lower-greek;
+}
+
+dl{
+width: 50%;
+margin: auto;
+background-color: #696969;
+}
+
+dt{
+font-weight: bold;
+}
+
+dd+dt{
+  margin-top: 20px;
+}
+
+dd{
+margin: 0;
+}
+
+td:nth-child(n+2) {
+  text-align: right;
+  width: 33%;
+}
+
+
 aside[role="complementary"]{
   background-color: #172635;
   color: #ffffff;
@@ -197,7 +251,33 @@ aside .container a{
   margin-top: 10px;
 }
 
+#practice h4{
+  border-left: 5px solid #3b638b;
+  padding: 10px;
+}
 
+#practice blockquote{
+  border: 4px double #c0c0c0;
+  padding: 20px 40px;
+  margin: 40px 80px;
+  border-radius: 30px 0;
+  background-color: #3b638b;
+  color: #ffffff;
+  line-height: 1.4;
+  text-shadow: 1px 1px #000;
+}
+
+section h2{
+  color: #fff;
+  text-align: center;
+}
+
+#practice blockquote cite{
+  display: block;
+  text-align: right;
+  font-size: .9rem;
+  margin-top: 10px;
+}
   
 
 
