@@ -33,6 +33,10 @@ h2 {
   font-weight: bold;
   text-align: center;
 }
+h6{
+  text-align: left;
+  margin-bottom: 20px;
+}
 
 .config-item {
   margin-bottom: 30px;
@@ -40,6 +44,7 @@ h2 {
   border-radius: 5px;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
 }
 
 h3 {
@@ -69,13 +74,18 @@ a:hover {
 }
 
 .footer {
-  
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px;
   text-align: center;
   color: #ffffff;
   font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
 }
 
 .footer p {
@@ -92,6 +102,23 @@ a:hover {
   font-style: italic;
 }
 
-footer li a {
+footer li{
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+footer nav li a {
   text-align: center;
+  list-style-type: none;
+  display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer img{
+  max-width: 100%;
+  height: auto;
 }
