@@ -1,154 +1,182 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Arial", sans-serif;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 100%;
-  padding: 20px;
-  text-align: center;
-}
-
 header {
   background-color: #333;
   color: #fff;
   padding: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
 }
 
 header h1 {
-  text-align: center;
   font-size: 36px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  text-align: center;
 }
 
 header h2 {
-  text-align: center;
   font-size: 24px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
   margin: 0;
   text-align: center;
 }
 
-nav ul li {
-  display: inline-block;
-  margin-right: 10px;
+.primary h1 {
+  margin-bottom: 0;
 }
 
-nav ul li a {
+.primary h2 {
+  margin-top: 0;
+}
+
+.primary nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.primary nav ul li {
+  margin: 0 1em;
+}
+
+.primary nav ul li a {
   text-decoration: none;
-  color: #fff;
-  font-size: 18px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000;
 }
 
-#content {
-  text-align: center;
+.primary nav ul li a:hover {
+  color: #333;
 }
 
-#content h2 {
-  text-align: center;
-}
-
-section#articles {
+body {
+  font-family: Arial, sans-serif;
   background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 20px;
 }
 
-section#articles h2 {
-  font-size: 28px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* Header Styling */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Content Section Styling */
+#content {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+#articles {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.post {
+  margin-bottom: 40px;
+}
+
+.post header {
+  display: flex;
   align-items: center;
 }
 
-section#articles .post {
-  margin-bottom: 30px;
+.post header figure {
+  width: 200px;
+  margin-right: 20px;
 }
 
-section#articles .post header {
-  text-align: center;
+.post header img {
+  width: 100%;
+  height: auto;
+}
+
+.post header h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+ul {
   margin-bottom: 20px;
 }
 
-section#articles .post h2 {
-  font-size: 24px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+li {
+  margin-bottom: 10px;
 }
 
-section#articles .post p {
-  font-size: 16px;
-  line-height: 1.5;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+/* Hero Section Styling */
+#hero {
+  text-align: center;
+  padding: 40px 0;
 }
 
-section#articles .post ul {
-  margin-top: 10px;
-  font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-img {
-  display: block;
+#hero img {
   max-width: 100%;
   height: auto;
-  margin: 0 auto;
 }
 
-table {
-  margin: 0 auto;
+/* Sidebar Styling */
+aside {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.widget header {
+  margin-bottom: 10px;
+}
+
+.widget p:last-child {
+  margin-bottom: 0;
+}
+
+.widget table {
   width: 100%;
-  border-collapse: collapse;
 }
 
-th {
+.widget table td {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.widget table td:first-child {
+  font-weight: bold;
+  width: 50%;
+}
+
+.widget table td:last-child {
+  color: #888;
+}
+
+/* Footer Styling */
+footer {
   background-color: #333;
-  color: #fff;
-  font-size: 14px;
-  padding: 10px;
-  text-align: left;
-}
-
-td {
-  border: 1px solid #ccc;
-  padding: 10px;
-  font-size: 14px;
-  text-align: left;
-}
-
-footer#colophon {
-  background-color: #474747;
   color: #fff;
   padding: 20px;
   text-align: center;
-  max-width: 100%;
-  margin: 0;
-  display: flex;
-  justify-content: center;
 }
 
-footer#colophon h6 {
-  margin: 0;
-  font-size: 12px;
-}
-
-footer#colophon a {
-  color: #474747;
-  text-decoration: none;
-}
-
-footer#colophon a:hover {
-  text-decoration: underline;
-}
-
-article {
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+footer p {
+  margin-bottom: 0;
 }
