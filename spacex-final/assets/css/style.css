@@ -1,0 +1,182 @@
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin: 0;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+  text-align: center;
+}
+
+header h2 {
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+}
+
+.primary h1 {
+  margin-bottom: 0;
+}
+
+.primary h2 {
+  margin-top: 0;
+}
+
+.primary nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.primary nav ul li {
+  margin: 0 1em;
+}
+
+.primary nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.primary nav ul li a:hover {
+  color: #333;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* Header Styling */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Content Section Styling */
+#content {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+#articles {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.post {
+  margin-bottom: 40px;
+}
+
+.post header {
+  display: flex;
+  align-items: center;
+}
+
+.post header figure {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.post header img {
+  width: 100%;
+  height: auto;
+}
+
+.post header h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Hero Section Styling */
+#hero {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Sidebar Styling */
+aside {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.widget header {
+  margin-bottom: 10px;
+}
+
+.widget p:last-child {
+  margin-bottom: 0;
+}
+
+.widget table {
+  width: 100%;
+}
+
+.widget table td {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.widget table td:first-child {
+  font-weight: bold;
+  width: 50%;
+}
+
+.widget table td:last-child {
+  color: #888;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
