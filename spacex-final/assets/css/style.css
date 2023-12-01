@@ -48,28 +48,20 @@ header h2 {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
+  font-size: 16px;
+  color: #333;
   margin: 0;
   padding: 0;
-  color: #333;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  box-sizing: border-box;
 }
 
-h2 {
-  font-size: 24px;
-  margin-bottom: 15px;
-}
-
-p {
-  line-height: 1.5;
-}
-
-/* Header Styling */
+/* Header Styles */
 header {
   background-color: #333;
   color: #fff;
@@ -78,58 +70,79 @@ header {
 }
 
 header h1 {
+  margin: 0;
   font-size: 36px;
+  font-weight: bold;
+}
+
+header h2 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
   margin: 0;
 }
 
-/* Content Section Styling */
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Content Styles */
 #content {
-  background-color: #fff;
+  margin-top: 40px;
+  text-align: center;
+}
+
+#content h2 {
+  font-size: 24px;
+  font-weight: bold;
   margin-bottom: 20px;
-  padding: 20px;
+}
+
+#content p {
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 
 #articles {
-  background-color: #f9f9f9;
-  padding: 20px;
+  margin-top: 40px;
 }
 
-.post {
-  margin-bottom: 40px;
+#articles .container {
+  text-align: center;
 }
 
-.post header {
-  display: flex;
-  align-items: center;
+#articles figure {
+  margin-bottom: 10px;
 }
 
-.post header figure {
-  width: 200px;
-  margin-right: 20px;
-}
-
-.post header img {
-  width: 100%;
+#articles img {
+  max-width: 100%;
   height: auto;
 }
 
-.post header h2 {
-  font-size: 24px;
+#articles article {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+#articles article ul {
+  padding-left: 20px;
   margin-bottom: 10px;
 }
 
-ul {
-  margin-bottom: 20px;
-}
-
-li {
-  margin-bottom: 10px;
-}
-
-/* Hero Section Styling */
 #hero {
   text-align: center;
-  padding: 40px 0;
 }
 
 #hero img {
@@ -137,18 +150,19 @@ li {
   height: auto;
 }
 
-/* Sidebar Styling */
 aside {
-  background-color: #f9f9f9;
+  background-color: #f5f5f5;
   padding: 20px;
 }
 
-.widget header {
-  margin-bottom: 10px;
+aside h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
-.widget p:last-child {
-  margin-bottom: 0;
+.widget p {
+  margin-bottom: 10px;
 }
 
 .widget table {
@@ -156,17 +170,13 @@ aside {
 }
 
 .widget table td {
-  padding: 10px 0;
-  text-align: center;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
 }
 
 .widget table td:first-child {
   font-weight: bold;
-  width: 50%;
-}
-
-.widget table td:last-child {
-  color: #888;
 }
 
 footer {
