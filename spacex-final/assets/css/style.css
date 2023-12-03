@@ -99,3 +99,51 @@ ul {
 ul li {
   margin-bottom: 10px;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+td:nth-child(1) {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+span {
+  font-weight: normal;
+  font-size: 0.8em;
+  color: #888;
+}
+
+footer#colophon {
+  background-color: #474747;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  max-width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer#colophon h6 {
+  margin: 0;
+  font-size: 12px;
+}
+
+footer#colophon a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer#colophon a:hover {
+  text-decoration: underline;
+}
+  
